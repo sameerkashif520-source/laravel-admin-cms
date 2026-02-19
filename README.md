@@ -14,7 +14,7 @@ Custom-built Content Management System with authentication from scratch.
 - PHP 8.x
 - MySQL
 - Blade Templates
-- JavaScript (AJAX)
+- JavaScript
 
 ## What I Learned
 - How Laravel's authentication system works under the hood
