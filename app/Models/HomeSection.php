@@ -1,0 +1,60 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class HomeSection extends Model
+{
+    protected $fillable = [
+        'hero_bg_image',
+        'hero_title',
+        'hero_subtitle',
+        'hero_description',
+        'hero_button_text',
+        'hero_engineer_image',
+        'stat_1_number',
+        'stat_1_label',
+        'stat_2_number',
+        'stat_2_label',
+        'stat_3_number',
+        'stat_3_label',
+        'solutions_title',
+        'solutions_subtitle',
+        'card_1_title',
+        'card_1_description',
+        'card_2_title',
+        'card_2_description',
+        'card_3_title',
+        'card_3_description',
+        'card_4_title',
+        'card_4_description',
+        'card_5_title',
+        'card_5_description',
+        'card_6_title',
+        'card_6_description',
+        'card_1_tools',
+        'card_2_tools',
+        'card_3_tools',
+        'card_4_tools',
+        'process_title',
+        'process_subtitle',
+        'step_1_number',
+        'step_1_title',
+        'step_1_description',
+        'step_2_number',
+        'step_2_title',
+        'step_2_description',
+        'step_3_number',
+        'step_3_title',
+        'step_3_description',
+        'step_4_number',
+        'step_4_title',
+        'step_4_description',
+        'learn_more_title',
+        'learn_more_subtitle',
+        'tab_1_title',
+        'tab_2_title',
+        'is_active',
+    ];
+}
